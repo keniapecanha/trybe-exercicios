@@ -1,0 +1,36 @@
+div:hover {
+    border: 3px solid black;    
+}
+
+div:nth-of-type(1){
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div:nth-of-type(2){
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+div:nth-of-type(3){
+    font-size: 150%;
+    background-color: rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+div:nth-of-type(4){
+    background-color: greenyellow;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+div:nth-of-type(5){
+    background-color: grey;
+} 
+
+div:nth-child(odd){
+    font-style: italic;
+}
+
+
+         
+    
+

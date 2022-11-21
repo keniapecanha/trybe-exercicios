@@ -1,0 +1,49 @@
+/* Posicione o Mário acima do Goomba.
+
+Posicione a tag p para que fique dentro do balão de fala.
+
+Posicione o balão para que se torne uma fala de Browser.*/
+.super-mario {
+    width: 200px;
+    position: absolute;  
+    top: 70px;  
+  
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 340px;
+    left: 80px;   
+  
+  }
+  
+  .baloon {
+    position: absolute;
+    left: 200px;
+    top: 100px;   
+    z-index: 1;  
+     
+  }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute; 
+    left: 225px;
+    top: 140px;
+    z-index: 2;
+  
+  }
+  
+  .bowser {
+    width: 200px;
+    top: 220px;    
+    left: 480px;
+    position: absolute;
+  
+  }
+
+  h1 {
+    position: absolute;
+    left: 250px;
+  }
