@@ -78,7 +78,7 @@ console.log('------------------');
 console.log('Ex-8:');
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 let division;
-for (let index = 0; index <= numbers25.length; index +=1){
+for (let index = 0; index < numbers25.length; index +=1){
     division = numbers25[index] / 2;
     console.log(division);
 }
